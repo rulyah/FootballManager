@@ -20,5 +20,8 @@
   },
   "dependencies": {
     "jquery": "^3.5.1"
+  },
+  "browser": {
+    "fs": false
   }
 }
