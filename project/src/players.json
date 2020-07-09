@@ -5,70 +5,70 @@
         "lastName": "Messi",
         "skillScore": 99,
         "photo": "https://cdnimg.rg.ru/img/content/173/30/52/1_a8ab7a8a_d_850.jpg",
-        "id": 0
+        "id": 1
       },
       {
         "firstName": "Cristiano",
         "lastName": "Ronaldo",
         "skillScore": 98,
         "photo": "https://n1s2.starhit.ru/2e/43/a9/2e43a96894518b6454581ba4af6d2eca/480x496_0_6b88ac62a070a9d5f6bafe929f031e5e@480x496_0x0a330c9a_5562293391548161103.jpeg",
-        "id": 1
+        "id": 2
       },
       {
         "firstName": "Robert",
         "lastName": "Lewandowski",
         "skillScore": 97,
         "photo": "https://en.as.com/en/imagenes/2019/11/20/football/1574259356_569272_noticia_normal.jpg",
-        "id": 2
+        "id": 3
       },
       {
         "firstName": "Kevin",
         "lastName": "De Bruyne",
         "skillScore": 96,
         "photo": "https://cdn.theathletic.com/app/uploads/2020/02/27023834/De-Bruyne-City-1024x682.jpg",
-        "id": 3
+        "id": 4
       },
       {
         "firstName": "Virgil",
         "lastName": "van Dijk",
         "skillScore": 95,
         "photo": "https://i.pinimg.com/originals/a2/1b/da/a21bda83b06d0f0d213d982670ca8004.jpg",
-        "id": 4
+        "id": 5
       },
       {
         "firstName": "Kylian",
         "lastName": "Mbappe ",
         "skillScore": 94,
         "photo": "https://soccernews.ru/images/foto/20200507/211224_m.jpg",
-        "id": 5
+        "id": 6
       },
       {
         "firstName": "Sadio",
         "lastName": "Mane",
         "skillScore": 93,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Mame_Biram_Diouf.jpg",
-        "id": 6
+        "id": 7
       },
       {
         "firstName": "Neymar",
         "lastName": "Neymar",
         "skillScore": 92,
         "photo": "https://www.footboom.net/img/upload/3/79b99-Nejmar.jpeg",
-        "id": 7
+        "id": 8
       },
       {
         "firstName": "Sergio",
         "lastName": "Aguero ",
         "skillScore": 91,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sergio_Ag%C3%BCero_2018.jpg/250px-Sergio_Ag%C3%BCero_2018.jpg",
-        "id": 8
+        "id": 9
       },
       {
         "firstName": "Eden",
         "lastName": "Hazard",
         "skillScore": 90,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Eden_Hazard_at_Baku_before_2019_UEFA_Europe_League_Final.jpg",
-        "id": 9
+        "id": 10
       }
     ]
   }

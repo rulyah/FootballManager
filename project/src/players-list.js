@@ -3,9 +3,8 @@ const json = require('./players.json');
 document.addEventListener('click',function(e){
     if(e.target && e.target.id== 'submit') {
         let playersCollection = document.getElementsByClassName("player-radio");
-        console.log(playersCollection)
+        
         let players = Array.prototype.slice.call(playersCollection);
-
         // console.log(`Players count: ${players.length}`);
 
         let activePlayers = players.filter(function(value, index, array) {
@@ -14,12 +13,16 @@ document.addEventListener('click',function(e){
 
         // console.log(`Active players: ${activePlayers.length}`);
 
-        if(activePlayers.length < 1) {
-            console.error("Nobody is active.");
+        if(activePlayers.length !== 1) {
+            console.error("Choose One");
         } else {
-            
+            // let idChoose = +activePlayers[0].value
+            // console.log(idChoose)
             let name = activePlayers[0].parentNode.parentNode.parentNode.getElementsByTagName("td")[1].innerHTML;
-            // console.log(`First active player is: ${name.replace(/\s+/g, ' ').trim()}`);
+            console.log(`Yours choose is: ${name.replace(/\s+/g, ' ').trim()}`);
+
+            // let pl = json.players.find(element => element.idChoose)
+            // console.log(pl)
         }
     }
  });
@@ -43,7 +46,7 @@ function getPlayersTable() {
                             <tbody>
                                 <tr>
                                     <td>
-                                    <input class="player-radio" type="checkbox">
+                                    <input class="player-radio" type="checkbox" value="${player.id}">
                                     </td>
                                 </tr>
                                 <tr>
